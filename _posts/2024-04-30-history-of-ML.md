@@ -117,7 +117,7 @@ Máy tính cá nhân dần phổ biến, mở đường cho sự bùng nổ củ
 Sức mạnh tính toán và lượng dữ liệu tăng mạnh, dẫn đến sự phát triển nhanh chóng của AI và học máy
 
 ---
-## Now
+## Ngày nay
 
 Ngày nay học máy và AI chạm tới hầu hết mọi lĩnh vực trong cuộc sống của chúng ta. Thời đại này đòi hỏi sự hiểu biết cẩn thận về những rủi ro và tác động tiềm tàng của các thuật toán này đối với cuộc sống con người. Như Brad Smith của Microsoft đã tuyên bố: "Công nghệ thông tin đặt ra những vấn đề trọng tâm trong việc bảo vệ nhân quyền cơ bản như quyền riêng tư và tự do ngôn luận. Những vấn đề này nâng cao trách nhiệm đối với các công ty công nghệ tạo ra những sản phẩm này. 
 
