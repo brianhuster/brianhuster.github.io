@@ -2,6 +2,7 @@
 layout: post
 title:  "Bài 4 : Các kỹ thuật trong học máy"
 date:   2024-04-30 16:00:00 +0700
+author: "Phạm Bình An"
 categories: 
 ---
 
@@ -102,4 +103,3 @@ Sau khi quá trình huấn luyện ban đầu của bạn hoàn tất, hãy quan
 ## Dự đoán
 
 Đây là thời điểm bạn có thể dùng dữ liệu hoàn toàn mới để kiểm tra độ chính xác của mô hình, hoặc đưa mô hình vào ứng dụng thực tế. 
----

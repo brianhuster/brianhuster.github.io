@@ -2,6 +2,7 @@
 layout: post
 title:  "Bài 3 : Trách nhiệm con người trong việc xây dựng AI"
 date:   2024-04-30 16:00:00 +0700
+author: "Phạm Bình An"
 categories: 
 ---
  

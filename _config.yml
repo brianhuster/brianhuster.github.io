@@ -31,7 +31,18 @@ github_username:  brianhuster
 theme: minima
 plugins:
   - jekyll-feed
-timezone: Asia/Ho-Chi-Minh
+  - jekyll-paginate
+  # - jekyll-search
+timezone: Asia/Ho_Chi_Minh
+paginate: 10
+paginate_path: "/page:num/"
+
+header_pages:
+  - about.md
+  - search.html
+
+search:
+  excludes: [search.html, rss.xml]
 
 # Exclude from processing.
 # The following items will not be processed, by default.

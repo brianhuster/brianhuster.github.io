@@ -1,0 +1,21 @@
+---
+layout: default
+title: Home
+---
+
+<h1 class="post-title">Bài đăng</h1>
+{% for post in paginator.posts %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="author">{{ post.author }}</span>
+    <span class="date">{{ post.date | date: "%d/%m/%Y %H:%M"}} GMT+7</span>
+  </p>
+{% endfor %}
+
+{% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path }}">Previous</a>
+{% endif %}
+  <span>Trang {{ paginator.page }}</span>
+{% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path }}" style="text-align: right;">Next</a>
+{% endif %}

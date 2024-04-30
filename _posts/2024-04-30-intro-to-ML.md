@@ -2,6 +2,7 @@
 layout: post
 title:  "Bài 1 : Giới thiệu về học máy"
 date:   2024-04-29 10:13:32 +0700
+author: "Phạm Bình An"
 categories: 
 ---
 
