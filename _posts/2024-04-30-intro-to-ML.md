@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Giới thiệu về học máy"
+title:  "Bài 1 : Giới thiệu về học máy"
 date:   2024-04-29 10:13:32 +0700
 categories: 
 ---

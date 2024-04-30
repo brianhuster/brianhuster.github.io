@@ -31,6 +31,7 @@ github_username:  brianhuster
 theme: minima
 plugins:
   - jekyll-feed
+timezone: Asia/Ho-Chi-Minh
 
 # Exclude from processing.
 # The following items will not be processed, by default.
