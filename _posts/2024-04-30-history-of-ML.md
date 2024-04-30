@@ -120,6 +120,7 @@ Sức mạnh tính toán và lượng dữ liệu tăng mạnh, dẫn đến s�
 ## Now
 
 Ngày nay học máy và AI chạm tới hầu hết mọi lĩnh vực trong cuộc sống của chúng ta. Thời đại này đòi hỏi sự hiểu biết cẩn thận về những rủi ro và tác động tiềm tàng của các thuật toán này đối với cuộc sống con người. Như Brad Smith của Microsoft đã tuyên bố: "Công nghệ thông tin đặt ra những vấn đề trọng tâm trong việc bảo vệ nhân quyền cơ bản như quyền riêng tư và tự do ngôn luận. Những vấn đề này nâng cao trách nhiệm đối với các công ty công nghệ tạo ra những sản phẩm này. 
+
 ---
 
 Vẫn còn phải xem tương lai sẽ ra sao, nhưng điều quan trọng là phải hiểu những hệ thống máy tính này cũng như phần mềm và thuật toán mà chúng chạy. Chúng tôi hy vọng rằng chương trình giảng dạy này sẽ giúp bạn hiểu rõ hơn để có thể tự quyết định.
