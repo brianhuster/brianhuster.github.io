@@ -129,7 +129,6 @@ Tương tự như debug một ứng dụng phần mềm, debug hệ thống AI l
 
 Hãy nghĩ về các tình huống thực tế trong đó sự không đáng tin cậy của mô hình được thể hiện rõ trong quá trình xây dựng và sử dụng mô hình. Chúng ta nên xem xét điều gì khác?
 
-## [Đố sau bài giảng](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/6/)
 ## Ôn tập & Tự học
  
 Trong bài học này, bạn đã học được một số khái niệm cơ bản về sự công bằng và bất công trong học máy.
