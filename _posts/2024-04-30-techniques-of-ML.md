@@ -69,6 +69,7 @@ Trước khi đào tạo, bạn cần chia tập dữ liệu của mình thành 
 - **Tập huấn luyện** dùng để huấn luyện mô hình và thường chiếm phần lớn bộ dữ liệu (thường là 80%)
 - **Tập thử nghiệm** dùng để thử nghiệm mô hình đã học
 - **Tập tối ưu** dùng để tối ưu hóa tham số (nếu có)
+
 ## Xây dựng mô hình
 
 ### Xác định phương pháp huấn luyện
