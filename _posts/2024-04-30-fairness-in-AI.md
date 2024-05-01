@@ -137,7 +137,7 @@ Xem workshop này để tìm hiểu sâu hơn về các chủ đề:
 
 - Theo đuổi AI có trách nhiệm: Áp dụng các nguyên tắc vào thực tiễn của Besmira Nushi, Mehrnoosh Sameki và Amit Sharma
 
-[![Hộp công cụ AI có trách nhiệm: Khung nguồn mở để xây dựng AI có trách nhiệm](https://img.youtube.com/vi/tGgJCrA-MZU/0.jpg)](https://www.youtube.com/ watch?v=tGgJCrA-MZU "Hộp công cụ RAI: Khung nguồn mở để xây dựng AI có trách nhiệm")
+[![Hộp công cụ AI có trách nhiệm: Khung nguồn mở để xây dựng AI có trách nhiệm](https://img.youtube.com/vi/tGgJCrA-MZU/0.jpg)](https://www.youtube.com/watch?v=tGgJCrA-MZU "Hộp công cụ RAI: Khung nguồn mở để xây dựng AI có trách nhiệm")
 
 > 🎥 Nhấp vào hình ảnh bên trên để xem video: Hộp công cụ RAI: Khung nguồn mở để xây dựng AI có trách nhiệm của Besmira Nushi, Mehrnoosh Sameki và Amit Sharma
 
