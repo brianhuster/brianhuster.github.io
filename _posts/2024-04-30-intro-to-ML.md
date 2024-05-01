@@ -37,7 +37,7 @@ Học máy được lấy cảm hứng phần nào từ cách bộ não con ngư
 ---
 ## Trí tuệ nhân tạo (AI), học máy, học sâu (deep learning)
 
-![AI, ML, deep learning, datas science]({{site.url}}/images/ai-ml-ds.png)
+![AI, ML, deep learning, datas science]({{site.url}}/assets/images/ai-ml-ds.png)
 
 > Sơ đồ thể hiện mối quan hệ giữa AI, ML, deep learning và khoa học dữ liệu. Tham khảo [Jen Looper](https://twitter.com/jenlooper), [Christophe](https://softwareengineering.stackexchange.com/questions/366996/distinction-between-ai-ml-neural-networks-deep-learning-and-data-mining)
 
