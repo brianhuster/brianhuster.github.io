@@ -44,10 +44,6 @@ header_pages:
 search:
   excludes: [search.html, rss.xml]
 
-gitalk:
-  clientID: Ov23lixcPIiXd8WxsNw7
-  clientSecret: a67a488577a3cb80c209b2df8f2c4cbecc40b4ce
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
