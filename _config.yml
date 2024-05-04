@@ -26,8 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://brianhuster.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: brianhuster.fb
 github_username:  brianhuster
-disqus:
-  shortname: brianhuster
+
 # Build settings
 theme: minima
 plugins:
@@ -44,6 +43,10 @@ header_pages:
 
 search:
   excludes: [search.html, rss.xml]
+
+gitalk:
+  clientID: Ov23lixcPIiXd8WxsNw7
+  clientSecret: a67a488577a3cb80c209b2df8f2c4cbecc40b4ce
 
 # Exclude from processing.
 # The following items will not be processed, by default.

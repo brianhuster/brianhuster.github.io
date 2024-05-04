@@ -31,8 +31,8 @@ comments: true
     {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
+  {%- if page.comments -%}
+    {%- include gitalk_comments.html -%}
   {%- endif -%}
   
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
