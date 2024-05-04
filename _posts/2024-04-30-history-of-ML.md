@@ -6,6 +6,12 @@ author: "Phạm Bình An"
 categories: 
 ---
 
+---
+
+Xem thêm các bài học khác của khóa **học máy cơ bản** tại [đây]({{site.url}}/2024/05/04/intro-to-regression.html)
+
+---
+
 ![Lịch sử học máy trong một trang giấy]({{site.url}}/assets/images/classic-ML-course/ml-history.png)
 > Tác giả : [Tomomi Imura](https://www.twitter.com/girlie_mac)
 
@@ -135,5 +141,11 @@ Vẫn còn phải xem tương lai sẽ ra sao, nhưng điều quan trọng là p
 [Podcast Amy Boyd nói về sự tiến hóa của AI](http://runasradio.com/Shows/Show/739)
 
 [![Lịch sử của AI bởi Amy Boyd](https://img.youtube.com/vi/EJt3_bFYKss/0.jpg)](https://www.youtube.com/watch?v=EJt3_bFYKss "The history of AI by Amy Boyd")
+
+---
+
+Xem thêm các bài học khác của khóa **học máy cơ bản** tại [đây]({{site.url}}/2024/05/04/intro-to-regression.html)
+
+---
 
 ---

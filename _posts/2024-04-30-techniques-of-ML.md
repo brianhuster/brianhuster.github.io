@@ -6,6 +6,8 @@ author: "Phạm Bình An"
 categories: 
 ---
 
+Xem thêm các bài học khác của khóa **học máy cơ bản** tại [đây]({{site.url}}/2024/05/04/intro-to-regression.html)
+
 Quá trình xây dựng, sử dụng và bảo trì các mô hình machine learning cũng như dữ liệu chúng sử dụng rất khác so với nhiều quy trình phát triển khác. Trong bài học này, chúng tôi sẽ làm sáng tỏ quy trình và phác thảo các kỹ thuật chính mà bạn cần biết. Bạn sẽ:
 
 - Hiểu các quy trình làm nền tảng cho việc học máy ở mức độ cao.
@@ -104,3 +106,6 @@ Sau khi quá trình huấn luyện ban đầu của bạn hoàn tất, hãy quan
 ## Dự đoán
 
 Đây là thời điểm bạn có thể dùng dữ liệu hoàn toàn mới để kiểm tra độ chính xác của mô hình, hoặc đưa mô hình vào ứng dụng thực tế. 
+
+Xem thêm các bài học khác của khóa **học máy cơ bản** tại [đây]({{site.url}}/2024/05/04/intro-to-regression.html)
+

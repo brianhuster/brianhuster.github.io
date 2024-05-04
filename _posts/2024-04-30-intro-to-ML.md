@@ -6,7 +6,7 @@ author: "Phạm Bình An"
 categories: 
 ---
 
-## [Pre-lecture quiz](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/1/)
+Xem thêm các bài học khác của khóa **học máy cơ bản** tại [đây]({{site.url}}/2024/05/04/intro-to-regression.html)
 
 ---
 
@@ -57,3 +57,9 @@ Các ứng dụng của học máy hiện nay có gần như ở khắp mọi n�
 - Phát hiện tin giả.
 
 Tài chính, kinh tế, khoa học trái đất, thám hiểm không gian, kỹ thuật y sinh, khoa học nhận thức và thậm chí cả khoa học nhân văn đã áp dụng học máy để giải quyết các vấn đề xử lý dữ liệu.
+
+---
+
+Xem thêm các bài học khác của khóa **học máy cơ bản** tại [đây]({{site.url}}/2024/05/04/intro-to-regression.html)
+
+---

@@ -5,6 +5,12 @@ date:   2024-04-30 16:00:00 +0700
 author: "Phạm Bình An"
 categories: 
 ---
+
+---
+
+Xem thêm các bài học khác của khóa **học máy cơ bản** tại [đây]({{site.url}}/2024/05/04/intro-to-regression.html)
+
+---
  
 ![Tóm tắt về việc xây dựng AI có trách nhiệm trong một trang giấy]({{site.url}}/assets/images/classic-ML-course/ml-fairness.png)
 > Sketchnote by [Tomomi Imura](https://www.twitter.com/girlie_mac)
@@ -154,3 +160,9 @@ Hộp công cụ RAI:
 Đọc về các công cụ của Azure Machine Learning:
 
 - [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/concept-fairness-ml?WT.mc_id=academic-77952-leestott)
+
+---
+
+Xem thêm các bài học khác của khóa **học máy cơ bản** tại [đây]({{site.url}}/2024/05/04/intro-to-regression.html)
+
+---
