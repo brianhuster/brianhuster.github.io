@@ -1,6 +1,5 @@
 ---
 layout: base
-comments: true
 ---
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
@@ -31,9 +30,7 @@ comments: true
     {{ content }}
   </div>
 
-  {%- if page.comments -%}
-    {%- include gitalk_comments.html -%}
-  {%- endif -%}
+  {%- include gitalk_comments.html -%}
   
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

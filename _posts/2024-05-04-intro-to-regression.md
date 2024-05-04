@@ -6,7 +6,11 @@ author: "Phạm Bình An"
 categories: 
 ---
 
+---
+
 Xem thêm các bài học khác của khóa **học máy cơ bản** tại [đây]({{site.url}}/2024/05/04/intro-to-regression.html)
+
+---
 
 ![Tóm tắt về hồi quy trong một trang giấy]({{site.url}}/assets/images/classic-ML-course/ml-regression.png)
 
@@ -195,7 +199,11 @@ Trong một ô code mới, hãy tải tập dữ liệu về bệnh tiểu đư�
 
 Xin chúc mừng, bạn đã xây dựng mô hình hồi quy tuyến tính đầu tiên của mình, dùng mô hình để dự đoán và vẽ biểu đồ! Các lý thuyết về mô hình này sẽ được giải đáp trong bài 7
 
+---
+
 Xem thêm các bài học khác của khóa **học máy cơ bản** tại [đây]({{site.url}}/2024/05/04/intro-to-regression.html)
+
+---
 
 
 ---
