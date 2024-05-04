@@ -20,7 +20,7 @@ Quá trình xây dựng, sử dụng và bảo trì các mô hình machine learn
 Ở cấp độ cao, tạo quá trình học máy (ML) bao gồm một số bước:
 
 1. **Quyết định câu hỏi**. Vấn đề mà mô hình ML cần giải quyết
-2. **Thu thập và chuẩn bị dữ liệu**. Để có thể trả lời câu hỏi của bạn, bạn cần dữ liệu. Chất lượng và đôi khi số lượng dữ liệu của bạn sẽ quyết định mức độ bạn có thể trả lời câu hỏi ban đầu của mình. Trực quan hóa dữ liệu là một khía cạnh quan trọng của giai đoạn này. Giai đoạn này cũng bao gồm việc chia dữ liệu thành nhóm đào tạo (training) và thử nghiệm (testing) để xây dựng mô hình.
+2. **Thu thập và chuẩn bị dữ liệu**. Để có thể trả lời câu hỏi của bạn, bạn cần dữ liệu. Chất lượng và đôi khi số lượng dữ liệu của bạn sẽ quyết định mức độ bạn có thể trả lời câu hỏi ban đầu của mình. Trực quan hóa dữ liệu là một khía cạnh quan trọng của giai đoạn này. Giai đoạn này cũng bao gồm việc chia dữ liệu thành tập huấn luyện (training) và thử nghiệm (testing) để xây dựng mô hình.
 3. **Chọn phương pháp huấn luyện**. Tùy thuộc vào câu hỏi và tính chất của dữ liệu, bạn cần chọn cách bạn muốn huấn luyện mô hình để phản ánh tốt nhất dữ liệu của mình và đưa ra dự đoán chính xác dựa trên dữ liệu đó. Đây là một phần trong quy trình ML của bạn đòi hỏi chuyên môn cụ thể và thường cần lượngthí nghiệm đáng kể.
 4. **Huấn luyện mô hình**. Khi sử dụng dữ liệu huấn luyện của mình, bạn sẽ sử dụng nhiều thuật toán khác nhau để huấn luyện mô hình nhằm nhận dạng các mẫu trong dữ liệu. Mô hình có thể tận dụng các trọng số bên trong có thể được điều chỉnh để ưu tiên một số phần dữ liệu nhất định so với các phần khác để xây dựng một mô hình tốt hơn.
 5. **Đánh giá mô hình**. Bạn sử dụng dữ liệu chưa từng thấy trước đây (dữ liệu thử nghiệm của bạn) từ bộ đã thu thập để đánh giá hiệu quả mô hình.
@@ -94,7 +94,7 @@ Quá khớp xảy ra khi mô hình học quá nhiều từ dữ liệu đào t�
 
 Chưa khớp xảy ra khi mô hình chưa học đủ từ dữ liệu đào tạo, không thể nắm bắt được mối quan hệ giữa các đặc trưng và mục tiêu. Kết quả là mô hình sẽ hoạt động kém cả trên dữ liệu đào tạo và dữ liệu kiểm thử. Điều này giống như một sinh viên không học đủ kiến thức để giải quyết các câu hỏi trong đề thi. 
 
-![mô hình quá khớp]({{site.url}}/assets/images/overfitting.png)
+![mô hình quá khớp]({{site.url}}/assets/images/classic-ML-course/overfitting.png)
 > Hình ảnh của [Jen Looper](https://twitter.com/jenlooper)
 
 ## Điều chỉnh tham số
