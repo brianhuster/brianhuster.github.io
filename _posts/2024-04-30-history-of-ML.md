@@ -76,7 +76,7 @@ Một số phát minh :
 * Eliza, một 'chatbot' thời kỳ đầu, có thể trò chuyện với mọi người như một 'nhà trị liệu'. Bạn sẽ tìm hiểu thêm về Eliza trong chương xử lý ngôn ngữ tự nhiên.
 
      ![Eliza, một robot]({{site.url}}/assets/images/classic-ML-course/eliza.png)
-     > Một phiên bản của Eliza, một chatbot
+     > Một phiên bản của chatbot ELIZA
 
 ---
 
