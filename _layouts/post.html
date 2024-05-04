@@ -2,9 +2,11 @@
 layout: base
 ---
 <div id="fb-root"></div>
+<meta property="fb:app_id" content="406149845633228" />
+<meta property="fb:admins" content="brianhuster.fb"/>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v19.0&appId=406149845633228" nonce="bxuRbh2o"></script>
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
@@ -35,6 +37,7 @@ layout: base
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
+  <!-- Facebook comment section -->
   <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="5" data-order-by="reverse_time"></div>
   
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
