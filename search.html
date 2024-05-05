@@ -3,35 +3,4 @@ layout: page
 title: Search
 permalink: /search/
 ---
-<style>
-   #search-container {
-    justify-content: center;
-  }
-  #search-input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #000;
-    border-radius: 20px;
-    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
-  }
-</style>
-  
-<div id="search-container">
-  <input type="text" id="search-input" placeholder="Search...">
-  <ul id="results-container"></ul>
-</div>
-
-<script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
-
-<script>
-  var sjs = new SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '{{ site.baseurl }}/search.json',
-    searchResultTemplate: '<h1><a href="{url}">{title}</a></h1><p class="author"><span class="date">{date}</span></p>',
-    noResultsText: 'Không tìm thấy kết quả nào',
-    limit: Number.MAX_VALUE, // Get all results
-    fuzzy: true,
-  });
-</script>
+{% include lunr_search.html %}
