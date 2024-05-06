@@ -1,40 +1,30 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <style>
-  .site-header .wrapper {
-    display: flex;
-    width: 100%;
-  }
-
-  .site-header .site-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-
-  .site-header .trigger, form {
-    display: flex;
-    align-items: center;
-  }
-
-  .site-header form input[type="text"] {
+  .search input[type=text] { 
     padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
   }
-
-  .site-header form button {
-    background-color: #007bff;
-    color: white;
+  .search button[type=submit] {
+    float: right;
+    padding: 8px 10px;
+    margin-top: 10px;
+    margin-right: 16px;
+    font-size: 17px;
+    background: #ddd;
     border: none;
     cursor: pointer;
-    padding: 8px 10px;
   }
-
-  .site-header form button:hover {
-    background-color: #0056b3;
-  }
-
-  .site-header form button:focus {
-    outline: none;
+  @media screen and (min-width: 601px) {
+    .trigger {
+      display: inline-block;
+    }
+    .trigger a.page-link {
+      display: inline-block;
+    }
+    .trigger form {
+      display: inline-block;
+    }
   }
 </style>
 <header class="site-header">
@@ -62,7 +52,7 @@
               <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
               {%- endif -%}
             {%- endfor -%}
-            <form action="/search" method="get" accept-charset="UTF-8">
+            <form action="/search" method="get" accept-charset="UTF-8" class="search">
               <input type="text" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Tìm kiếm" />
               <button type="submit"><i class="fa fa-search"></i></button>
             </form>

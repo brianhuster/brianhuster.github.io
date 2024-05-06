@@ -2,7 +2,7 @@
 const lunr = require('lunr');
 require('lunr-languages/lunr.stemmer.support.js')(lunr);
 require('lunr-languages/lunr.multi.js')(lunr);
-require('lunr-languages/lunr.vi.js')(lunr);
+require('../../assets/js/lunr.vi.js')(lunr);
 const fs = require('fs');
 
 // Load your documents from a JSON file
@@ -11,7 +11,8 @@ const documents = require('../../_site/search.json');
 
 // Build the index
 const idx = lunr(function () {
-    this.use(lunr.multiLanguage('vi', 'en'));
+    // this.use(lunr.multiLanguage('en'));
+    this.use(lunr.vi);
     this.ref('id');
     this.field('title');
     this.field('body');
