@@ -1,5 +1,9 @@
+<style>
+  trigger {
+    display: flex; justify-content: space-between; align-items: center;
+  }
+</style>
 <header class="site-header">
-
     <div class="wrapper">
       {%- assign default_paths = site.pages | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -18,12 +22,19 @@
           </label>
   
           <div class="trigger">
-            {%- for path in page_paths -%}
-              {%- assign my_page = site.pages | where: "path", path | first -%}
-              {%- if my_page.title -%}
-              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-              {%- endif -%}
-            {%- endfor -%}
+            <span>
+              {%- for path in page_paths -%}
+                {%- assign my_page = site.pages | where: "path", path | first -%}
+                {%- if my_page.title -%}
+                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                {%- endif -%}
+              {%- endfor -%}
+            </span>
+            <span>
+              <form action="/search" method="get" accept-charset="UTF-8">
+                <input type="text" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search..." />
+              </form>
+            </span>
           </div>
         </nav>
       {%- endif -%}

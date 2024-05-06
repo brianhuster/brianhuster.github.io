@@ -1,0 +1,14 @@
+---
+---
+{% assign counter = 0 %}
+[
+{% for post in site.posts %}
+{
+  "id": {{ counter }},
+  "url": "{{ site.url }}{{ post.url }}",
+  "title": "{{ post.title }}",
+  "VNdate": "{{ post.date | date: "%d/%m/%Y %H:%M GMT%Z" }}",
+  "body": "{{ post.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+}{% if forloop.last %}{% else %}, {% endif %}
+{% endfor %}
+]

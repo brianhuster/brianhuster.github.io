@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "lunr": "^2.3.9",
+    "lunr-languages": "^1.14.0"
+  },
+  "name": "brianhuster.github.io",
+  "description": "Đây là blog cá nhân của tôi [https://brianhuster.github.io](https://brianhuster.github.io)",
+  "version": "1.0.0",
+  "main": "search_index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -22,55 +22,50 @@
    }
 </style>
 
-<p><input type="text" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search..." /></p>
 <div id="lunrsearchresults">
     <ul></ul>
 </div>
 
 <script>
-    {% assign counter = 0 %}
-    var documents = [{% for page in site.posts %}{
-        "id": {{ counter }},
-        "url": "{{ site.url }}{{ page.url }}",
-        "title": "{{ page.title }}",
-        "VNdate"   : "{{ page.date | date: '%d/%m/%Y %H:%M'}} GMT+7",
-        "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
-        }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
-    
-    var idx = lunr(function () {
-        this.use(lunr.multiLanguage('vi', 'en'))
-        this.ref('id')
-        this.field('title')
-        this.field('body')
-    
-        documents.forEach(function (doc) {
-            this.add(doc)
-        }, this)
+    var documents, idx;
+    fetch('{{site.url}}/search.json')
+    .then(response => response.json())
+    .then(data => {
+        documents = data;
+        console.log(documents)
+        fetch('{{site.url}}/assets/server/search_index.json')
+        .then(response => response.json())
+        .then(data => {
+            idx = lunr.Index.load(data);
+            lunr_search();
+            displayResults(0);
+        });
     });
     
+    var url = new URL(window.location.href);
+    const keyword = url.searchParams.get('q') || '';
     var currentPage = 0;
     var resultsPerPage = 10;
-    var keyword = '';
     var results=[];
     const lunrsearchresults=document.getElementById('lunrsearchresults');
     
     function lunr_search() {
-        keyword = document.getElementById('lunrsearch').value;
         if(keyword) {
             //put results on the screen.
             results = idx.search(keyword);
+            console.log(results);
         }
     }
     function displayResults(page) {
         var start = page * resultsPerPage;
         var end = start + resultsPerPage;
-        if (page == 0){
-            lunrsearchresults.innerHTML = '';
+        if (page === 0){
+            lunrsearchresults.innerHTML = '<p>Đã tìm thấy <strong>'+results.length+'</strong> kết quả cho từ khóa <strong>'+keyword+'</strong></p>';
         }
-        lunrsearchresults.innerHTML = '<p>Đã tìm thấy <strong>'+results.length+'</strong> kết quả cho từ khóa <strong>'+keyword+'</strong></p>';
         if(results.length>0){    
             for (var i = start; i < end && i < results.length; i++) {
                 var ref = results[i]['ref'];
+                console.log(ref);
                 var url = documents[ref]['url'];
                 var title = documents[ref]['title'];
                 var VNdate = documents[ref]['VNdate'];
@@ -81,19 +76,10 @@
         }
     }
     
-    document.getElementById('lunrsearch').addEventListener('keyup', function(event) {
-        if (event.key === 'Enter') {
-            currentPage = 0;
-            lunr_search();
-            displayResults(0);
-            event.preventDefault();
-        }
-    });
-    
     window.onscroll = function() {
         if ((window.innerHeight + Math.ceil(window.scrollY)) >= document.body.offsetHeight) {
             currentPage++;
-            lunr_search(currentPage);
+            displayResults(currentPage);
         }
     };
 </script>
