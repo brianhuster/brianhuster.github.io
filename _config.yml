@@ -23,7 +23,7 @@ email: phambinhanctb@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Đây là blog cá nhân chia sẻ những điều mình học được trong quá trình làm việc và học tập.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://brianhuster.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: brianhuster.fb
 github_username:  brianhuster
 

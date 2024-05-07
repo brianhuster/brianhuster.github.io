@@ -11,11 +11,11 @@ const documents = require('../../_site/search.json');
 
 // Build the index
 const idx = lunr(function () {
-    // this.use(lunr.multiLanguage('en'));
-    this.use(lunr.vi);
+    this.use(lunr.multiLanguage('vi', 'en'));
     this.ref('id');
     this.field('title');
     this.field('body');
+    this.field('date');
 
     documents.forEach(function (doc) {
         this.add(doc);
