@@ -12,7 +12,7 @@ Xem thêm các bài học khác của khóa **học máy cơ bản** tại [đâ
 
 ---
  
-![Tóm tắt về việc xây dựng AI có trách nhiệm trong một trang giấy]({{site.url}}/assets/images/classic-ML-course/ml-fairness.png)
+![Tóm tắt về việc xây dựng AI có trách nhiệm trong một trang giấy]({{site.url}}/assets/images/blog/classic-ML-course/ml-fairness.png)
 > Sketchnote by [Tomomi Imura](https://www.twitter.com/girlie_mac)
 
  
@@ -51,10 +51,10 @@ Hệ thống AI nên đối xử công bằng với mọi người và tránh �
 - **Đại diện quá mức hoặc quá ít** (over or under-representation). Ý tưởng cho rằng một nhóm người nhất định không được không làm một nghề nhất định.
 - **Định kiến**. Liên kết một nhóm nhất định với các thuộc tính được gán trước. Ví dụ: hệ thống dịch ngôn ngữ giữa tiếng Anh và tiếng Thổ Nhĩ Kỳ có thể không chính xác do các từ có mối liên hệ khuôn mẫu với giới tính.
 
-![dịch sang tiếng Thổ Nhĩ Kỳ]({{site.url}}/assets/images/classic-ML-course/gender-bias-translate-en-tr.png)
+![dịch sang tiếng Thổ Nhĩ Kỳ]({{site.url}}/assets/images/blog/classic-ML-course/gender-bias-translate-en-tr.png)
 > dịch sang tiếng Thổ Nhĩ Kỳ
 
-![dịch ngược lại tiếng Anh]({{site.url}}/assets/images/classic-ML-course/gender-bias-translate-tr-en.png)
+![dịch ngược lại tiếng Anh]({{site.url}}/assets/images/blog/classic-ML-course/gender-bias-translate-tr-en.png)
 > dịch ngược lại sang tiếng Anh
 
 Khi thiết kế và thử nghiệm hệ thống AI, chúng ta cần đảm bảo rằng AI công bằng và không được lập trình để đưa ra những quyết định thiên vị hoặc phân biệt đối xử, điều mà con người cũng bị cấm đưa ra. Đảm bảo sự công bằng trong AI và học máy vẫn là một thách thức kỹ thuật xã hội phức tạp.
@@ -97,7 +97,7 @@ Hệ thống trí tuệ nhân tạo cần được hiểu rõ. Một yếu tố 
 
 Những người thiết kế và triển khai các hệ thống trí tuệ nhân tạo phải chịu trách nhiệm về cách hệ thống của họ hoạt động. Sự cần thiết của trách nhiệm này đặc biệt quan trọng đối với các công nghệ nhạy cảm như nhận dạng khuôn mặt. Gần đây, đã có một sự gia tăng nhu cầu về công nghệ nhận dạng khuôn mặt, đặc biệt từ các lực lượng thực thi pháp luật, những người nhìn thấy tiềm năng của công nghệ trong việc tìm kiếm trẻ em mất tích. Tuy nhiên, những công nghệ này có thể tiềm ẩn nguy cơ bị chính quyền sử dụng để hạn chế các quyền tự do của công dân, bằng cách cho phép giám sát liên tục của những cá nhân cụ thể. Do đó, các nhà khoa học dữ liệu và tổ chức cần phải chịu trách nhiệm về cách hệ thống trí tuệ nhân tạo của họ ảnh hưởng đến cá nhân hoặc xã hội.
 
-[![Nhà nghiên cứu AI hàng đầu cảnh báo về giám sát hàng loạt qua nhận dạng khuôn mặt]({{site.url}}/assets/images/classic-ML-course/accountability.png)](https://www.youtube.com/watch?v=Wldt8P5V6D0 "Microsoft's Approach to Responsible AI")
+[![Nhà nghiên cứu AI hàng đầu cảnh báo về giám sát hàng loạt qua nhận dạng khuôn mặt]({{site.url}}/assets/images/blog/classic-ML-course/accountability.png)](https://www.youtube.com/watch?v=Wldt8P5V6D0 "Microsoft's Approach to Responsible AI")
 
 > 🎥 Click ảnh trên để xem video : Nhà nghiên cứu AI hàng đầu cảnh báo về việc giám sát hàng loạt thông qua nhận dạng khuôn mặt
 
