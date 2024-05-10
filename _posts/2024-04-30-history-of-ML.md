@@ -12,7 +12,7 @@ Xem thêm các bài học khác của khóa **học máy cơ bản** tại [đâ
 
 ---
 
-![Lịch sử học máy trong một trang giấy]({{site.url}}/assets/images/blog/classic-ML-course/ml-history.png)
+![Lịch sử học máy trong một trang giấy]({{site.url}}/assets/images/classic-ML-course/ml-history.png)
 > Tác giả : [Tomomi Imura](https://www.twitter.com/girlie_mac)
 
 ## [Quiz khởi động (tiếng Anh)](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/3/)
@@ -74,14 +74,14 @@ Một số phát minh :
 
 * [Robot Shakey](https://wikipedia.org/wiki/Shakey_the_robot) có thể quyết định cách thực hiện nhiệm vụ một cách 'thông minh'.
 
-     ![Shakey, robot thông minh]({{site.url}}/assets/images/blog/classic-ML-course/shakey.jpg)
+     ![Shakey, robot thông minh]({{site.url}}/assets/images/classic-ML-course/shakey.jpg)
      > Shakey năm 1972
 
 ---
 
 * Eliza, một 'chatbot' thời kỳ đầu, có thể trò chuyện với mọi người như một 'nhà trị liệu'. Bạn sẽ tìm hiểu thêm về Eliza trong chương xử lý ngôn ngữ tự nhiên.
 
-     ![Eliza, một robot]({{site.url}}/assets/images/blog/classic-ML-course/eliza.png)
+     ![Eliza, một robot]({{site.url}}/assets/images/classic-ML-course/eliza.png)
      > Một phiên bản của chatbot ELIZA
 
 ---

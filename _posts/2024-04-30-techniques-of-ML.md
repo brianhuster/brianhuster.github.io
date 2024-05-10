@@ -100,7 +100,7 @@ Quá khớp xảy ra khi mô hình học quá nhiều từ dữ liệu đào t�
 
 Chưa khớp xảy ra khi mô hình chưa học đủ từ dữ liệu đào tạo, không thể nắm bắt được mối quan hệ giữa các đặc trưng và mục tiêu. Kết quả là mô hình sẽ hoạt động kém cả trên dữ liệu đào tạo và dữ liệu kiểm thử. Điều này giống như một sinh viên không học đủ kiến thức để giải quyết các câu hỏi trong đề thi. 
 
-![mô hình quá khớp]({{site.url}}/assets/images/blog/classic-ML-course/overfitting.png)
+![mô hình quá khớp]({{site.url}}/assets/images/classic-ML-course/overfitting.png)
 > Hình ảnh của [Jen Looper](https://twitter.com/jenlooper)
 
 ## Điều chỉnh tham số

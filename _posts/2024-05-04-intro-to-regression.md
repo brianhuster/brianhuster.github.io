@@ -12,7 +12,7 @@ Xem thêm các bài học khác của khóa **học máy cơ bản** tại [đâ
 
 ---
 
-![Tóm tắt về hồi quy trong một trang giấy]({{site.url}}/assets/images/blog/classic-ML-course/ml-regression.png)
+![Tóm tắt về hồi quy trong một trang giấy]({{site.url}}/assets/images/classic-ML-course/ml-regression.png)
 
 > Sketchnote by [Tomomi Imura](https://www.twitter.com/girlie_mac)
 
@@ -79,7 +79,7 @@ Notebook là một môi trường tương tác cho phép nhà phát triển vừ
     hello notebook
     ```
 
-![VS Code with a notebook open]({{site.url}}/assets/images/blog/classic-ML-course/notebook.jpg)
+![VS Code with a notebook open]({{site.url}}/assets/images/classic-ML-course/notebook.jpg)
 
 ## Làm việc với Scikit-learn
 Bây giờ bạn đã có Python và đã quen thuộc với Jupyter notebooks, hãy bắt đầu làm quen với Scikit-learn (phát âm như `sai-kit lơn`). Scikit-learn cũng cung cấp [API mở rộng](https://scikit-learn.org/stable/modules/classes.html#api-ref) để giúp bạn thực hiện các tác vụ học máy.
@@ -193,7 +193,7 @@ Trong một ô code mới, hãy tải tập dữ liệu về bệnh tiểu đư�
     plt.show()
     ```
 
-   ![a scatterplot showing datapoints around diabetes]({{site.url}}/assets/images/blog/classic-ML-course/scatterplot.png)
+   ![a scatterplot showing datapoints around diabetes]({{site.url}}/assets/images/classic-ML-course/scatterplot.png)
 
    ✅ Bây giờ bạn hãy thử đoán ý nghĩa của đường thẳng này nhé. Đáp án sẽ có trong bài 7
 
