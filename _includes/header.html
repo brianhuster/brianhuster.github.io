@@ -3,17 +3,7 @@
   .search input[type=text] { 
     padding: 6px;
     margin-top: 8px;
-    font-size: 17px;
-  }
-  .search button[type=submit] {
-    float: right;
-    padding: 8px 10px;
-    margin-top: 10px;
-    margin-right: 16px;
-    font-size: 17px;
-    background: #ddd;
-    border: none;
-    cursor: pointer;
+    font-size: 16px;
   }
   @media screen and (min-width: 601px) {
     .trigger {
@@ -53,8 +43,7 @@
               {%- endif -%}
             {%- endfor -%}
             <form action="/search" method="get" accept-charset="UTF-8" class="search">
-              <input type="text" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Tìm kiếm" />
-              <button type="submit"><i class="fa fa-search"></i></button>
+              <input type="text" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search..." />
             </form>
           </div>
         </nav>
