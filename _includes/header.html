@@ -4,7 +4,8 @@
     padding: 6px 30px 6px 30px;
     font-size: 16px;
     border-radius: 1000px;
-    border: 1px solid;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   .search .fa-search{
     position: absolute;
@@ -51,7 +52,7 @@
             {%- endfor -%}
             <form action="/search" method="get" accept-charset="UTF-8" class="search">
               <i class="search-icon fas fa-search"></i>
-              <input type="text" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search..." />
+              <input type="text" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Tìm kiếm" />
             </form>
           </div>
         </nav>
