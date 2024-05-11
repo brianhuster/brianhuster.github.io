@@ -155,24 +155,24 @@
   
   .footer-col-1,
   .footer-col-2 {
-    width: calc(50% - (#{$spacing-unit} / 2));
+    width: calc(50% - math.div(#{$spacing-unit}, 2););
   }
   
   .footer-col-3 {
-    width: calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - math.div(#{$spacing-unit}, 2););
   }
   
   @media screen and (min-width: $on-large) {
     .footer-col-1 {
-      width: calc(35% - (#{$spacing-unit} / 2));
+      width: calc(35% - math.div(#{$spacing-unit}, 2););
     }
   
     .footer-col-2 {
-      width: calc(20% - (#{$spacing-unit} / 2));
+      width: calc(20% - math.div(#{$spacing-unit}, 2););
     }
   
     .footer-col-3 {
-      width: calc(45% - (#{$spacing-unit} / 2));
+      width: calc(45% - math.div(#{$spacing-unit}, 2););
     }
   }
   
@@ -182,7 +182,7 @@
     }
   
     .footer-col {
-      width: calc(100% - (#{$spacing-unit} / 2));
+      width: calc(100% - math.div(#{$spacing-unit}, 2););
       padding: 0 ($spacing-unit * .5);
   
       &:first-child {
@@ -338,6 +338,6 @@
    */
   @media screen and (min-width: $on-large) {
     .one-half {
-      width: calc(50% - (#{$spacing-unit} / 2));
+      width: calc(50% - math.div(#{$spacing-unit}, 2););
     }
   }

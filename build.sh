@@ -20,8 +20,7 @@ for ((i=1; i<=$#; i++)); do
     # Increment i to get the next argument, which should be the port number
     ((i++))
     port=${!i:-$default_port}
-    cd _site
-    ../node_modules/.bin/http-server -p $port
+    bash serve.sh -p $port
     break
   fi
 done
