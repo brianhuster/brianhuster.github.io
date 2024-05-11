@@ -44,8 +44,8 @@ header_pages:
 search:
   excludes: [search.html, rss.xml]
 
-sass: 
-  quiet_deps: true  #disable warning "Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0. Recommendation: math.div($spacing-unit, 2) or calc($spacing-unit / 2)"
+# minima:
+#   date_format: "%d/%m/%Y"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
