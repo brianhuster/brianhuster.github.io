@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Brianhuster
-email: phambinhanctb@gmail.com
+# email: phambinhanctb2004@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Đây là blog cá nhân chia sẻ những điều mình học được trong quá trình làm việc và học tập.
 baseurl: "" # the subpath of your site, e.g. /blog
