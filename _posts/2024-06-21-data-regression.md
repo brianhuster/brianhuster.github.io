@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bài 6 : Trực quan hóa dữ liệu cho mô hình hồi quy"
-date:   2024-05-04 09:00:00 +0700
+date:   2024-06-21 21:57:00 +0700
 author: "Phạm Bình An"
 categories: 
 ---
