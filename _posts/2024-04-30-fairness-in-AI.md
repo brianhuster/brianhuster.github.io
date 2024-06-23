@@ -8,7 +8,7 @@ categories:
 
 ---
 
-Xem thêm các bài học khác của khóa **học máy cơ bản** tại [đây]({{site.url}}/2024/05/04/intro-to-regression.html)
+Xem thêm các bài học khác của khóa **học máy cơ bản** tại [đây]({{site.url}}/2024/04/30/classic-ML-course.html)
 
 ---
  
